@@ -10,12 +10,13 @@
     public class Me : IProgrammer
     {
         public string Name => "Ivan Terentev";
-        public string Role => "Backend Developer";
+        public string Role => "Lead Developer";
 
         public string[] Companies => new []
         {
-            "Adnow Media",
-            "Zorra Telecom",
+            "Adnow Media",  // Web Developer
+            "Zorra Telecom",// Backend Developer
+            "TION",         // Lead Developer
         };
     }
 ```
